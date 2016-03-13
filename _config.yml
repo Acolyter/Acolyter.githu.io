@@ -27,7 +27,7 @@ blog_button:
 nav:
     - {title: Projects, description: My Projects, url: 'http://acolyter.github.io/projects.html'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
-    - {title: About, description: About, url: 'http://acolyter.github.io/about.html'}
+    - {title: About, description: About, url: 'http://acolyter.github.io/about.html#/bored'}
 
 # Pagination
 gems: [jekyll-paginate]
