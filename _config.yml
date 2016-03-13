@@ -3,7 +3,7 @@ title: Acolyter
 subtitle: A blog-orientation theme for Jekyll
 welcome_message: Welcome Message
 description: Description Message
-creator: <a href="http://acolyter.github.io">Acolyter</a>
+creator: <a href="http://acolyter.github.io/">Acolyter</a>
 
 url: "http://acolyter.github.io"
 
@@ -16,7 +16,7 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: 
 
 # The blog button should not be removed.
 blog_button:
@@ -25,8 +25,9 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://acolyter.github.io/Projects'}
+    - {title: Projects, description: My Projects, url: 'http://acolyter.github.io/projects.html'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: About, description: About, url: 'http://acolyter.github.io/about.html'}
 
 # Pagination
 gems: [jekyll-paginate]
@@ -40,7 +41,7 @@ comment:
     
 # Social
 social:
-    weibo: o
+    weibo: 
     github: Acolyter
     twitter: 
     gplus: 
